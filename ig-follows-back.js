@@ -242,7 +242,7 @@ function genNotFollowingBackHTML(users) {
 
   return `
     <div style="font-family: Helvetica, sans-serif; max-width: 600px; margin: 40px auto;">
-      <h2 style="margin-bottom: 20px;">These users don't follow you back:</h2>
+      <h2 style="margin-bottom: 20px;">These users don't follow you back :(</h2>
       <ol style="list-style: none; padding: 0; margin: 0;">
         ${usersHtml}
       </ol>
