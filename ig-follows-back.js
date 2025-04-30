@@ -26,7 +26,7 @@ async function sendUnfollowRequest({ userId, tokens, refererUsername }) {
   });
 
   const body = new URLSearchParams({
-    av: "17841402207724937",
+    av: "0",
     __d: "www",
     __user: "0",
     __a: "1",
